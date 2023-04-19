@@ -1,0 +1,17 @@
+body{
+ background-color: rgb gray
+
+ h1{
+    font-family: 'Times new Roman', Times, serif;
+    font-size: 150px;
+    color: rgb(78, 79, 87);
+    text-align: center;
+ }
+ h2{
+    font-family:'Times new Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(146, 174, 200);
+    text-align:center;
+ }
+
+}
