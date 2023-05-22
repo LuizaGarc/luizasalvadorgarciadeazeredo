@@ -1,0 +1,19 @@
+header{
+    background-color: blueviolet;
+    padding: 20px;
+}
+#logo{
+    border-radius: 10px;
+}
+@font-face{
+    font-family: 'Arapey';
+    src: url('Arapey-Regular.tff')format('TrueType')
+}
+
+.tituloprincipal{
+    position:absolute;
+    top: 13%;
+    left: 30%;
+    font-size: 35px;
+    font-family: 'Arapey';
+}
