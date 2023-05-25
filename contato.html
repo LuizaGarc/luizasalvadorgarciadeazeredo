@@ -1,32 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Contato</title>
-        <link rel="stylesheet" href="contato.css">
+<head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+    <img id="logo" src="ART.png">
+    <h1 class="titulo-principal"><em>GARCSART</em></h1>
+    </header>
+    <br>
+    <main>
+    <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" name="nome" id="nomesobrenome" 
+        class="input-padrao" placeholder="Seu nome e sobrenome" required>
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="text" name="email" id="email"
+        class="input-padrao" placeholder="seuemail@dominio.com" required>
+        <br><br>
+        <label for="telefone">telefone</label>
+        <input type="text" name="telefone" id="telefone"
+        class="input-padrao" placeholder="(XX)XXXXX-XXXX" required>
+        <br><br>
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="70" rows="2" id="mensagem" required></textarea>
 
-    </head>
-    <body>
-        <header>
-            <img id="logo" src="ART.png">
-            <h1 class="titulo-principal"> Garcsart</h1>
-        </header>
+        <section>
+            <p>Como prefere nosso contato?</p>
+            <input type="radio" name="contato" value="email" id="radio-email">
+            <label for="radio-email">Email</label>
 
-        <main>
-            <form>
-                <label for="nomesobrenome">Nome e Sobrenome</label>
-                <input type="text" name="nome" id="nomesobrenome" 
-                class="input-padrao" placeholder="Seu Nome e Sobrenome" required >
-                
-                <label for="email" class="labelinput">Email</label>
-                <input type="text" name="email" id="email"
-                class="input-padro" placeholder="seuemail@dominio.com" required>
-                <br><br>
-                <label for="telefone">Telefone</label>
-                <input type="text" name="telefone" id="telefone"
-                class="input-padrao" placeholder="(xx)xxxxx-xxxx"required>
-        >
-            </form>
-        </main>
+            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+            <label for="radio-telefone">Telefone</label>
 
-    </body>
+           <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+           <label for="whatsapp">Whatsapp</label>
+    </section>
+   <section>
+    <p>Qual horário prefere ser atendido<?/p>
+        <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+        </select>
+   </section>
+   <br><br>
+
+   <label class="checkbox">
+    <input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+   
+
+    </form>
+
+</main>
+
+<footer>
+
+</footer>
+</body>
+</html>
