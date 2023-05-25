@@ -14,6 +14,7 @@ header{
     position:absolute;
     top: 13%;
     left: 30%;
+    transform: translate(-30px -10px);
     font-size: 35px;
     font-family: 'Arapey';
 }
@@ -30,7 +31,7 @@ header{
     padding: 20px
 }
 h1{
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
 #logo{
