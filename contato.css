@@ -105,3 +105,10 @@ form label, form p{/*Vamos replicar a mesma configuração do form label para o 
  font-size: 20px;
 margin: 0 0 10px;/*10px para baixo*/;
 }
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;/*20px para baixo*/
+    padding: 10px 25px;/*10pxx p/ cima e p/ baixo e 25px p/ s lados*/
+    width: 50%;/*Largura dos meus inputs*/
+}
