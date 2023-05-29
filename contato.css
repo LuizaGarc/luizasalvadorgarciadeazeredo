@@ -3,7 +3,8 @@ header{
     padding: 20px;
 }
 #logo{
-    border-radius: 10px;
+    border-radius: 30px;
+    width: 250px;
 }
 @font-face{
     font-family: 'Arapey';
@@ -94,5 +95,13 @@ main{
 }
 
 form{
-    margin: 40px 0;
+    margin: 40px 0;/*margem superior e inferior de 40px, para os lados zero*/
+}
+
+form label, form p{/*Vamos replicar a mesma configuração do form label para o parágrafo,
+ por isso, o uso da vírgula*/
+
+ display: block;
+ font-size: 20px;
+margin: 0 0 10px;/*10px para baixo*/;
 }
