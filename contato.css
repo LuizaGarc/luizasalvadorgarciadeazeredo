@@ -63,7 +63,7 @@ form{
     margin: 40px 0;
 }
 header{
-    background-image: linear-gradient(white,gray,black);
+    background-image: linear-gradient(white,rgb(218, 218, 218),rgb(255, 248, 184));
     padding: 20px
 }
 h1{
@@ -87,6 +87,13 @@ h1{
     transform: translate(-30px -10px);
     font-size: 35px;
     font-family: 'blinker';
+    color: #ffffff;
+    color: #000;
+    text-shadow: -1px -1px 0px #e9d8b9,
+                 -1px 4px 0px #FFF,
+                 1PX -1PX 0PX #FFF,
+                 1px -1px 0px #FFF.
+                 1px 0px 0px #FFF;
 }
 
 main{
@@ -154,4 +161,5 @@ footer{
     border-radius: 15px;
     width: 90px;
     height: 90px;
+    border: 2px solid white;
 }
