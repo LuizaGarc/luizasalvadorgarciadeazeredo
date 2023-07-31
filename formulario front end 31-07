@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+    <img id="logo" src="ART.png">
+    <h1 class="titulo-principal"><em>Cadastrar aluno</em></h1>
+    </header>
+    <br>
+    <main>
+    <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" name="nome" id="nomesobrenome" 
+        class="input-padrao" placeholder="Seu nome e sobrenome" required>
+        <br><br>
+        <label for="Email">Data de Nascimento</label>
+        <input type="text" name="datanasci" id="datanasci"
+        class="input-padrao" placeholder="seuemail@dominio.com" required>
+        <br><br>
+        <label for="telefone">telefone</label>
+        <input type="text" name="telefone" id="telefone"
+        class="input-padrao" placeholder="(XX)XXXXX-XXXX" required>
+        <br><br>
+        
+   <br><br>
+
+   <label class="checkbox">
+    <input type="submit" value="Enviar formulário" class="enviar"> 
+
+    </form>
+
+</main>
+
+<footer>
+    <img id="logo1" src="ART.png">
+    <p class="Copyright">&copy; Copyright --Luiza Garcia</p>
+
+</footer>
+</body>
+</html>
