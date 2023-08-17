@@ -7,9 +7,26 @@
     </head>
     <body>
         <fieldset>
-            <form>
-                
-            </form>
+            
+<form method="post" action="">
+Nome <input type="text" size="80" maxlength="70" placeholder="Digite seu nome" name="nome">
+Data nascimento<input type="date">
+RG<input type="number" size="10" placeholder="Digite sem os pontos" required name="RG">
+Email<input type="email" size="80" name="email">
+Telefone<input type="tel" name="telefone">
+Senha<input type="Password" name="senha" size="10" maxlength="10">
+Curso<input type="checkbox" name="Curso" value="Administração">Administração
+<input type="checkbox" name="Curso" value="Eletrônica">Eletrônica
+Período<input type="radio" name="matutino">Matutino
+<input type="radio" name="Vespertino">Vespertino
+<input type="radio" name="Noturno">Noturno
+Cidade<select name="Cidade">
+    <option>Cascavel</option>
+    <option>Corbélia</option>
+    <option>Foz do Iguaçu</option>
+    <option>Todelo</option>
+    <option>Maringá</option>
+
         </fieldset>
     </body>
     </html>
