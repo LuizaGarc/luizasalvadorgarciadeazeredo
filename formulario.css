@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+input[type=text]{
+    background-color: rgb(225, 193, 255);
+    color:rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+<br>
+    input{
+ background-color: rgb(225, 193, 255);r
+  
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    height: 15px;
+    border-color: black;
+    border-style: dotted;
+    text-decoration: underline;
+    font-weight: bold;
+    
+
+}
+input[type=date]{
+    background-color: rgb(225, 193, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+select{
+    color: rgb(225, 193, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+input[type=email]{
+    background-color: rgb(225, 193, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+input[type=telefone]{
+    background-color: rgb(225, 193, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+input[type=Password]{
+    background-color: rgb(225, 193, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+input[type=cidade]{
+    background-color: rgb(225, 193, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
