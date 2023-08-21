@@ -3,30 +3,50 @@
     <head>
         <title> Formulário</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link rel="stylesheet" type="text/css" href="formulario.css">
     </head>
     <body>
         <fieldset>
-            
+            <pre>
 <form method="post" action="">
-Nome <input type="text" size="80" maxlength="70" placeholder="Digite seu nome" name="nome">
-Data nascimento<input type="date">
-RG<input type="number" size="10" placeholder="Digite sem os pontos" required name="RG">
-Email<input type="email" size="80" name="email">
-Telefone<input type="tel" name="telefone">
-Senha<input type="Password" name="senha" size="10" maxlength="10">
-Curso<input type="checkbox" name="Curso" value="Administração">Administração
-<input type="checkbox" name="Curso" value="Eletrônica">Eletrônica
-Período<input type="radio" name="matutino">Matutino
-<input type="radio" name="Vespertino">Vespertino
-<input type="radio" name="Noturno">Noturno
-Cidade<select name="Cidade">
+Nome: <input type="text" size="80" maxlength="70" placeholder="Digite seu nome" name="nome">
+
+Data nascimento:<input type="date" size="80">
+
+RG:<input type="text" size="10" placeholder="Digite sem os pontos" required name="RG">
+
+Email:<input type="email" size="80" name="email">
+
+Telefone:<input type="telefone" name="telefone">
+
+Senha:<input type="Password" name="senha" size="10" maxlength="10">
+
+Curso:
+
+<input type="checkbox" name="Curso" value="Administracao">Administração
+
+<input type="checkbox" name="Curso" value="Eletronica">Eletrônica
+
+<input type="checkbox" name="Curso" value="Informatica">Informática
+
+<input type="checkbox" name="Curso" value="Eletromecanica">Eletromecânica
+
+<input type="checkbox" name="Curso" value="Edificacoes">Edificações
+
+<input type="checkbox" name="Curso" value="Estetica">Estética
+
+Período:
+<input type="checkbox" name="matutino">Matutino
+<input type="checkbox" name="Vespertino">Vespertino
+<input type="checkbox" name="Noturno">Noturno
+
+Cidade:<select name="Cidade" value="cidade">
     <option>Cascavel</option>
     <option>Corbélia</option>
     <option>Foz do Iguaçu</option>
     <option>Todelo</option>
     <option>Maringá</option>
-
+</pre>
         </fieldset>
     </body>
     </html>
