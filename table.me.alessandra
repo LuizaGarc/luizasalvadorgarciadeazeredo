@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <Title>Aula de front end- tabela</Title>
+        <link rel="stylesheet" href="table.css">
+
+
+    </head>
+
+    <body>
+        <h1 align="center"><em>DISCIPLINA: Programação Front End</em></h1>
+        <br>
+        <br>
+        <br>
+        <table border="2px" align="center" width="100%" bgcolor="#616161">
+            <tr bgcolor="#d4d5fa">
+                <td> Nome</td>
+                <td> Nota 1</td>
+                <td> Nota 2</td>
+                <td> Nota 3</td>
+                <td> Média Final</td>
+            </tr>
+            <tr bgcolor="#e6e6fc">
+                <td>Fellipe</td>
+                <td>7,5</td>
+                <td>9,0</td>
+                <td>7,5</td>
+                <td>8,0</td>
+            </tr>
+            <tr bgcolor="#d5d4ff">
+                <td>Shaiane</td>
+                <td>9,5</td>
+                <td>8,9</td>
+                <td>10,0</td>
+                <td>9,4</td>
+            </tr>
+            <tr bgcolor="#cfb5ff">
+                <td>Dartora</td>
+                <td>10,0</td>
+                <td>9,9</td>
+                <td>9,0</td>
+                <td>9,6</td>
+            </tr>
+            <tr bgcolor="#cd99f7">
+                <td>Mariana</td>
+                <td>8,5</td>
+                <td>10,0</td>
+                <td>9,6</td>
+                <td>9,3</td>
+            </tr>
+            <tr bgcolor="#b27fdb">
+                <td>Ísis</td>
+                <td>10,0</td>
+                <td>8,8</td>
+                <td>9,0</td>
+                <td>9,5</td>
+            </tr>
+            <tr bgcolor="#a158a6">
+                <td>Ana Luiza</td>
+                <td>9,5</td>
+                <td>10,0</td>
+                <td>9,3</td>
+                <td>9,7</td>
+            </tr>
+            <tr>
+                <th class="tdcolspan" colspan="5" bgcolor="#d4d5fa">2023</th>
+            </tr>
+        </table>
+        </body>
+        </html>
