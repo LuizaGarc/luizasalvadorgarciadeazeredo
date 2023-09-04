@@ -18,8 +18,8 @@ CPF:<input type="number" size="10" placeholder="Digite seu CPF" required name="C
 Data nascimento:<input type="date" size="40">
 
 Sexo:
-<input type="radio" name="Feminino" >Feminino
-<input type="radio" name="Masculino" >Masculino
+<input type="radio" name="Sexo" value="Feminino" >Feminino
+<input type="radio" name="Sexo" value="Masculino">Masculino
 
 Endereço
 CEP:<input type="cep" size="80" placeholder="Digite o seu CEP" name="cep">
