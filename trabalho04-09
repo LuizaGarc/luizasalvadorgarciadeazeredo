@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Formulário</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="trabalho.css">
+    </head>
+    <body>
+        <fieldset>
+            <pre>
+<form method="post" action="">
+Nome: <input type="text" size="80" maxlength="70" placeholder="Digite seu nome" name="nome"><img  align="right" src="logo.jpg" >
+
+RG:<input type="text" size="10" placeholder="Digite seu RG" required name="RG">
+
+CPF:<input type="number" size="10" placeholder="Digite seu CPF" required name="CPF">
+
+Data nascimento:<input type="date" size="40">
+
+Sexo:
+<input type="radio" name="Feminino" >Feminino
+<input type="radio" name="Masculino" >Masculino
+
+Endereço
+CEP:<input type="cep" size="80" placeholder="Digite o seu CEP" name="cep">
+
+Cidade:<select name="Cidade" value="cidade">
+    <option>Cascavel</option>
+    <option>Corbélia</option>
+    <option>Foz do Iguaçu</option>
+    <option>Todelo</option>
+    <option>Maringá</option>
+    </select>                Bairro:<select name="Bairro" value="Bairro">
+        <option>Centro</option>
+        <option>Esmeralda</option>
+        <option>Paulo Godoy</option>
+        <option>Guarujá</option>
+        <option>Parque Verde</option>
+        <option>Tropical</option>
+        <option>Floresta</option>
+        <option>Santa Cruz</option>
+        <option>Cancelli</option>
+        <option>Country</option>
+        <option>Colina Verde</option>
+        <option>Hortência</option>
+        <option>Iguaçu</option>
+        <option>Ipanema</option>
+        <option>Iguaçu</option>
+        <option>Jardim Atami </option>
+        <option>Jardim Industrial</option>
+        <option>Mandacaru</option>
+    </select>
+
+Rua:<input type="rua" placeholder="Digite sua rua" name="rua">
+
+Telefone:<input type="telefone" placeholder="Digite seu telefone" name="telefone">
+
+<center><input type="submit" value="Gravar" class="enviar"> <input type="reset" value="Apagar" class="enviar"></center>
+
+</form>
+</pre>
+        </fieldset>
+    </body>
+    </html>
