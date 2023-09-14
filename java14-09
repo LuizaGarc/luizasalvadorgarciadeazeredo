@@ -12,10 +12,10 @@
             document.write(nome,'<br>')
             window.alert(nome)
         
-        var numero=Number(window.prompt('digite numero'))
+        var numero=Number(window.prompt('Digite numero'))
             document.write(numero,'<br>')    
 
-        var numero1=Number(window.prompt('digite o segundo valor'))
+        var numero1=Number(window.prompt('Digite o segundo valor'))
             document.write(numero1,'<br>') 
 
         var soma=numero+numero1
