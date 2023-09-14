@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> JavaScript</title>
+</head>
+<body>
+    <!-- JavaScript -->
+    <script>
+        var nome=window.prompt('Digite seu nome')
+            document.write(nome,'<br>')
+            window.alert(nome)
+        
+        var numero=Number(window.prompt('digite numero'))
+            document.write(numero,'<br>')    
+
+        var numero1=Number(window.prompt('digite o segundo valor'))
+            document.write(numero1,'<br>') 
+
+        var soma=numero+numero1
+            document.write(soma,'<br>')
+    </script>       
+</body>
+</html>
